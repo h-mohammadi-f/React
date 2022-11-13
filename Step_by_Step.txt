@@ -1,0 +1,6 @@
+1- React is based on components. It is useful for Reusability and Seperation of concerns. 
+2- Reaxt use Declarative Approach. We always define the desired target states and let React figure out the actual Javascript DOM inst.
+3- To create a React project we need Node js to be installed and we use this command: npx create-react-app project-name
+4- Add our first component. We add a components folder and add js files in it. 
+5- Composition means to create wrapper components and use props.children. 
+********************************************** End of module 3 *********************************************************************
