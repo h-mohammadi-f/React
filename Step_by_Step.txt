@@ -4,3 +4,8 @@
 4- Add our first component. We add a components folder and add js files in it. 
 5- Composition means to create wrapper components and use props.children. 
 ********************************************** End of module 3 *********************************************************************
+1- We are going to have a look at user interaction and making the app interactive and reactive. Also we are going to have a look at
+State concept in react, Handling events. 
+2- For activating intelisense I added an empty file to the rrot of the project jsconfig.json
+3- For event listener we add on event on each item.
+4- For updating an item in the page we should use State. We import it from reac.
