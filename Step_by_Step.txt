@@ -9,3 +9,5 @@ State concept in react, Handling events.
 2- For activating intelisense I added an empty file to the rrot of the project jsconfig.json
 3- For event listener we add on event on each item.
 4- For updating an item in the page we should use State. We import it from reac.
+********************************************** End of module 4 *********************************************************************
+1- We are going to learn rendering lists and conditional content and working with really dynamic content.
