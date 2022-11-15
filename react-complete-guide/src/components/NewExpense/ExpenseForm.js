@@ -56,15 +56,20 @@ const ExpenseForm = (props) => {
 
     const expenseData = {
       title: enteredTitle,
-      amount: enteredAmount,
+      amount: +enteredAmount,
       date: new Date(enteredDate),
     };
 
     props.onSaveExpenseData(expenseData);
     //for two way binding
-    setEnteredAmount('');
-    setEnteredDate('');
-    setEnteredTitle('');
+    setEnteredAmount("");
+    setEnteredDate("");
+    setEnteredTitle("");
+    closeForm();
+  };
+
+  const closeForm = () => {
+    props.onCloseCommand();
   };
 
   return (
@@ -73,7 +78,11 @@ const ExpenseForm = (props) => {
         <div className="new-expense__control">
           <label>Title</label>
           {/* value is for data binding */}
-          <input type="text" value={enteredTitle} onChange={titleChangeHandler} />
+          <input
+            type="text"
+            value={enteredTitle}
+            onChange={titleChangeHandler}
+          />
         </div>
         <div className="new-expense__control">
           <label>Amount</label>
@@ -97,6 +106,7 @@ const ExpenseForm = (props) => {
         </div>
       </div>
       <div className="new-expense__actions">
+        <button onClick={closeForm}>Cancel</button>
         <button type="submit">Add Expense</button>
       </div>
     </form>
