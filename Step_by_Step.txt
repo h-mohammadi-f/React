@@ -11,3 +11,5 @@ State concept in react, Handling events.
 4- For updating an item in the page we should use State. We import it from reac.
 ********************************************** End of module 4 *********************************************************************
 1- We are going to learn rendering lists and conditional content and working with really dynamic content.
+********************************************** End of module 5 *********************************************************************
+1- We are looking for styling in conditional and dynamic styles. We will have a look at styled components and css modules.
