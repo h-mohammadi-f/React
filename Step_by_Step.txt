@@ -19,4 +19,6 @@ State concept in react, Handling events.
 1- Debug react code
 2- React developer tools extension for Chrome
 ********************************************** End of module 7 *********************************************************************
-1- 
+1- Time to practice and have a review to all we learnt so far. 
+2- Pop-up modal windows and more validation 
+********************************************** End of module 8 *********************************************************************
