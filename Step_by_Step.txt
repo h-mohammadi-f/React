@@ -15,3 +15,8 @@ State concept in react, Handling events.
 1- We are looking for styling in conditional and dynamic styles. We will have a look at styled components and css modules.
 2- npm install --save styled-component
 3- css moduled stylesheet
+********************************************** End of module 6 *********************************************************************
+1- Debug react code
+2- React developer tools extension for Chrome
+********************************************** End of module 7 *********************************************************************
+1- 
