@@ -22,3 +22,5 @@ State concept in react, Handling events.
 1- Time to practice and have a review to all we learnt so far. 
 2- Pop-up modal windows and more validation 
 ********************************************** End of module 8 *********************************************************************
+1- We are going to have a look at Fragments, Portals $ Refs
+2- To prevent div soup :) 
